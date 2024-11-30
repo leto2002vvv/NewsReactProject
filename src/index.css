@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+h1,
+h2,
+h3,
+h4, 
+button {
+	color: rgb(158, 158, 183);
+}
+
+body {
+	background: linear-gradient(120deg, #3b4a6b, #1b263b);
+	display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+	min-width: 100vw;
+  margin: 0;
+}
